@@ -1,9 +1,19 @@
-import Image from "next/image";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import Roadmap from "@/components/Roadmap";
+import CommunitySection from "@/components/CommunitySection";
+import Disclaimer from "@/components/Disclaimer";
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Gomu
-    </h1>
-  )
-}
+    <>
+      <HeroSection />
+      <AboutSection />
+      <Roadmap />
+      <CommunitySection />
+      <Disclaimer />
+    </>
+  );
+};
+
+export default HomePage;
