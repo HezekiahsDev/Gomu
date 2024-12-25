@@ -11,7 +11,7 @@ const AboutSection = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="flex flex-col md:flex-row  max-w-6xl mx-auto bg-white bg-opacity-80 p-8 rounded-lg bg-amber-500/40 px-8 items-center justify-center">
+      <div className="flex flex-col md:flex-row bg-yellow-600/30 max-w-6xl mx-auto p-8 rounded-lg px-8 items-center justify-center">
         {/* Image Section */}
         <div className="flex-shrink-0 mb-8 md:mb-0 md:mr-8">
           <Image
